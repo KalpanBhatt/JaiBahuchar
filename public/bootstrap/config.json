@@ -1,0 +1,10 @@
+{
+  "vars": {},
+  "css": [
+    "carousel.less"
+  ],
+  "js": [
+    "carousel.js"
+  ],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=b94ee9a3d60e73a7f6f1ab57de485e19"
+}
