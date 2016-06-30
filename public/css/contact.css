@@ -9,7 +9,6 @@ h5{
   margin-top: 0;
 }
 
-.page-footer{
-  margin-top: 0 !important;
-  color: teal;
+.card-panel{
+	border-radius: 5px;
 }
