@@ -15,7 +15,7 @@
 
 .collection .collection-item{
     background-color: #ffc107;
-    border-bottom: 1px solid #ffd54f !important;	
+    border-bottom: 1px solid #ffd54f !important;
 }
 
 .collection-item a{
@@ -37,4 +37,12 @@
 	width: 150px;
 	border: 7px solid white;
 	border-radius: 13px;
+}
+
+.hide-display{
+	display: none;
+}
+
+.avtive-display{
+	display: block;
 }
