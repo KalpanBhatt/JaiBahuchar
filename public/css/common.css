@@ -31,3 +31,7 @@ nav ul a:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+.nopadding{
+  padding: 0;
+}
