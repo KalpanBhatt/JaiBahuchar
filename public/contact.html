@@ -42,48 +42,50 @@
         <div class="col s8">
           <h4>Question / Feedback</h4>
           <div class="row">
-            <form class="col s12">
+            <form class="col s12" method="post" action="submitForm.php">
               <div class="row">
                 <div class="input-field col s6">
                   <i class="material-icons prefix">perm_identity</i>
-                  <input id="fName" type="text" class="validate">
+                  <input id="fName" name="fName" type="text" class="validate">
                   <label for="fName">First Name</label>
                 </div>
                 <div class="input-field col s6">
                   <i class="material-icons prefix">perm_identity</i>
-                  <input id="lName" type="text" class="validate">
+                  <input id="lName" name="lName" type="text" class="validate">
                   <label for="lName">Last Name</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s6">
                   <i class="material-icons prefix">email</i>
-                  <input id="email" type="email" class="validate">
+                  <input id="email" name="email" type="email" class="validate">
                   <label for="email">Email</label>
                 </div>
                 <div class="input-field col s6">
                   <i class="material-icons prefix">phone</i>
-                  <input id="phone" type="tel" class="validate">
+                  <input id="phone" name="phone" type="tel" class="validate">
                   <label for="phone">Telephone</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
                   <i class="material-icons prefix">subject</i>
-                  <input id="subject" type="text" class="validate">
+                  <input id="subject" name="emailSubject" type="text" class="validate">
                   <label for="subject">Subject</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
                   <i class="material-icons prefix">mode_edit</i>
-                  <textarea id="textarea" class="materialize-textarea"></textarea>
+                  <textarea id="textarea" name="emailBody" class="materialize-textarea"></textarea>
                   <label for="textarea">Message</label>
                 </div>
               </div>
+              <input type="submit" name="submit" value="SEND" class="right btn waves-effect waves-teal">
             </form>
+
           </div>
-          <a href="#!" class="right btn waves-effect waves-teal">Send</a>
+
         </div>
         <div class="col s4">
           <h4>You Can Reach Us @</h4>
@@ -105,15 +107,30 @@
 
     <footer class="page-footer teal lighten-3">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="teal-text">Footer Content</h5>
-          <p class="teal-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <div class="col l5 s12">
+          <h5>Subscribe to our Newsletter to get latest news</h5>
+        </div>
+        <div class="col l7 s12">
+          <form action="subscribe.php" method="post">
+            <div class="row">
+                <div class="col l4">
+                    <input id="fName" name="fName" type="text" class="validate">
+                    <label for="fName">Name</label>
+                </div>
+                <div class="col l4">
+                    <input id="fName" name="fName" type="text" class="validate">
+                    <label for="fName">Email</label>
+                </div>
+                <div class="col l2">
+                    <input type="submit" name="submit" value="DONE" class="right btn waves-effect waves-teal">
+                </div>
+            </div>
+          </form>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container teal-text">
-          © 2016 Copyright Text
-          <a class="teal-text right" href="#!">More Links</a>
+          All Rights Reserved © 2017 Copyright Shree Shakti Temple Trust
         </div>
       </div>
     </footer>

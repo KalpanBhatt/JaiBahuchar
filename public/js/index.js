@@ -1,3 +1,3 @@
 jQuery(document).ready(function() {
-	$('.slider').slider({height: 800, indicators: false});
+	$('.slider').slider({height: 1000, indicators: false});
 });
