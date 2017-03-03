@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contact Us</title>
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/checkbox.png">
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+</head>
+<body>
+
+<!--Top Navigation Bar start-->
+     <nav>
+      <div class="nav-wrapper teal lighten-3">
+        <a href="index.html" class="brand-logo" style="padding-left: 35px;"><img src="images/3.jpg"></a>
+        <ul class="right">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="history.html">HISTORY</a></li>
+          <li><a href="events.html">EVENTS AT TEMPLE</a></li>
+          <li><a href="timing.html">DARSHAN TIMING</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="pubs.html">PUBLICATIONS</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+<!--Top Navigation Bar end-->
+
+    <div class="margin-top-left amber lighten-2">
+      <div class="row card-panel">
+        <div class="col s8">
+          <h4>Question / Feedback</h4>
+          <div class="row">
+            <form class="col s12" method="post" action="submitForm.php">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">perm_identity</i>
+                  <input id="fName" name="fName" type="text" class="validate">
+                  <label for="fName">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">perm_identity</i>
+                  <input id="lName" name="lName" type="text" class="validate">
+                  <label for="lName">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">email</i>
+                  <input id="email" name="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="phone" name="phone" type="tel" class="validate">
+                  <label for="phone">Telephone</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">subject</i>
+                  <input id="subject" name="emailSubject" type="text" class="validate">
+                  <label for="subject">Subject</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="textarea" name="emailBody" class="materialize-textarea"></textarea>
+                  <label for="textarea">Message</label>
+                </div>
+              </div>
+              <input type="submit" name="submit" value="SEND" class="right btn waves-effect waves-teal">
+            </form>
+
+          </div>
+
+        </div>
+        <div class="col s4">
+          <h4>You Can Reach Us @</h4>
+          <br>
+          <div>
+            <h5 class="h5">Address</h5>
+            <blockquote class="flow-text">41 Devpriya Soc. - 2</blockquote>
+            <blockquote class="flow-text">Behind Madhur Hall</blockquote>
+            <blockquote class="flow-text">Nr. Anandnagar Cross Roads</blockquote>
+            <blockquote class="flow-text">Ahmedabad, Gujarat</blockquote>
+            <blockquote class="flow-text">380015</blockquote>
+            <br>
+            <h5 class="h5">Phone</h5>
+            <blockquote class="flow-text">+91-98256-33791</blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer teal lighten-3">
+      <div class="row">
+        <div class="col l5 s12">
+          <h5>Subscribe to our Newsletter to get latest news</h5>
+        </div>
+        <div class="col l7 s12">
+          <form action="subscribe.php" method="post">
+            <div class="row">
+                <div class="col l4">
+                    <input id="fName" name="fName" type="text" class="validate">
+                    <label for="fName">Name</label>
+                </div>
+                <div class="col l4">
+                    <input id="fName" name="fName" type="text" class="validate">
+                    <label for="fName">Email</label>
+                </div>
+                <div class="col l2">
+                    <input type="submit" name="submit" value="DONE" class="right btn waves-effect waves-teal">
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container teal-text">
+          All Rights Reserved © 2017 Copyright Shree Shakti Temple Trust
+        </div>
+      </div>
+    </footer>
+
+
+<!--Javascript-->
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+
+</body>
+</html>

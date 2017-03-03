@@ -1,0 +1,48 @@
+.card-panel{
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+.collection{
+	border: none !important;
+	border-radius: 5px;
+}
+
+.collection.with-header .collection-header{
+    background-color: #ffc107;
+    border-bottom: 1px solid #ffd54f !important;
+}
+
+.collection .collection-item{
+    background-color: #ffc107;
+    border-bottom: 1px solid #ffd54f !important;
+}
+
+.collection-item a{
+	color: teal;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 2px;
+	-webkit-transition: color .5s, background-color .8s, font-weight .3s;
+	transition: color .5s background-color .8s, font-weight .3s;
+}
+
+.collection-item a:hover{
+	color: white;
+	font-weight: 200;
+}
+
+.setimage{
+	height: 150px;
+	width: 150px;
+	border: 7px solid white;
+	border-radius: 13px;
+}
+
+.hide-display{
+	display: none;
+}
+
+.avtive-display{
+	display: block;
+}

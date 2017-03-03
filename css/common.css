@@ -1,0 +1,37 @@
+.margin-top-left{
+  	margin: 0;
+	padding: 50px;
+	min-width: 150px;
+}
+
+nav ul a{
+	color: teal;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 2px;
+	-webkit-transition: color .5s, background-color .8s, font-weight .3s;
+	transition: color .5s background-color .8s, font-weight .3s;
+}
+
+nav ul a:hover{
+	color: white;
+	font-weight: 200;
+}
+
+.page-footer{
+	margin-top: 0 !important;
+	color: teal;
+}
+
+.stylish-gradient{
+	color: transparent !important;
+	background-image:-webkit-radial-gradient(45% center, circle, rgba(39, 52, 99,0.9) 40%, rgba(139,66,86,0.9));
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.nopadding{
+  padding: 0;
+}

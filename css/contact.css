@@ -1,0 +1,14 @@
+blockquote{
+  margin: 0;
+  padding-left: 15px;
+  font-size: 1.48rem;
+}
+
+h5{
+  margin-bottom: 1.656rem;
+  margin-top: 0;
+}
+
+.card-panel{
+	border-radius: 5px;
+}
