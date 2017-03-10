@@ -1,25 +1,22 @@
 <?php
-echo "string";
-if(!isset($_POST['submit'])){
-  echo "Error while submitting the form";
-}
-var_dump($_POST);
 
-$email_to = "kalpan.bhatt@gmail.com";
+    if(!isset($_POST['submit'])){
+      echo "Error while submitting the form";
+    }
+//    var_dump($_POST);
+    $email_to =         "kalpan.bhatt@gmail.com";
+    $email_subject =    (isset($_POST['emailSubject']) ? $_POST['emailSubject'] : "Your email subject");
+    $email_message =    $_POST['emailBody'];
 
-$email_subject = (isset($_POST['emailSubject']) ? $_POST['emailSubject'] : "Your email subject");
+    // create email headers
 
-$email_message = $_POST['emailBody'];
+    $headers =  'From: '.$_POST['email']."\r\n".
+                'Reply-To: '.$_POST['email']."\r\n" .
+                'X-Mailer: PHP/' . phpversion();
 
-// create email headers
+    //@mail($email_to, $email_subject, $email_message, $headers);
 
-$headers = 'From: '.$_POST['email']."\r\n".
-
-'Reply-To: '.$_POST['email']."\r\n" .
-
-'X-Mailer: PHP/' . phpversion();
-
-@mail($email_to, $email_subject, $email_message, $headers);
-
-var_dump($headers);
+//    header("Location: http://localhost:8888/JaiBahuchar/contact.html"); /* Redirect browser */
+    header("Location: /JaiBahuchar/contact.html");
+    exit();
  ?>

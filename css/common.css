@@ -5,7 +5,7 @@
 }
 
 nav ul a{
-	color: teal;
+	color: black;
 	font-weight: 500;
 	font-size: 15px;
 	letter-spacing: 2px;
@@ -15,12 +15,19 @@ nav ul a{
 
 nav ul a:hover{
 	color: white;
-	font-weight: 200;
+}
+
+nav, nav .nav-wrapper {
+    background-color: transparent;
+}
+
+nav {
+    box-shadow: none;
 }
 
 .page-footer{
 	margin-top: 0 !important;
-	color: teal;
+	color: black;
 }
 
 .stylish-gradient{
@@ -34,4 +41,33 @@ nav ul a:hover{
 
 .nopadding{
   padding: 0;
+}
+
+.footer-form-row{
+    margin-bottom: 0;
+}
+
+input[type=text], input[type=email]{
+    background-color: white;
+    padding-left: 5px;
+}
+
+label {
+    color: #ffd54f; /* red */
+    color: black;
+}
+
+input[type=text]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label {
+    color: #ffd54f; /*  Yellow  */
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #ffd54f;
+}
+
+.slider {
+    margin-top: -64px;
+    z-index: -1;
 }
