@@ -14,9 +14,8 @@
                 'Reply-To: '.$_POST['email']."\r\n" .
                 'X-Mailer: PHP/' . phpversion();
 
-    //@mail($email_to, $email_subject, $email_message, $headers);
+    @mail($email_to, $email_subject, $email_message, $headers);
 
-//    header("Location: http://localhost:8888/JaiBahuchar/contact.html"); /* Redirect browser */
     header("Location: /JaiBahuchar/contact.html");
     exit();
  ?>
