@@ -1,145 +1,193 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
 
-    <title>Contact Us</title>
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<title>Brushed | Responsive One Page Template</title>   
 
-    <link rel="shortcut icon" href="images/checkbox.jpg">
+<meta name="description" content="Insert Your Site Description" /> 
 
-    <!--Import materialize.css-->
-    <link rel="stylesheet" type="text/css" href="css/materialize.css">
-    <link rel="stylesheet" type="text/css" href="css/common.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
 
 </head>
+
+
 <body>
-
-<!--Top Navigation Bar start-->
-     <nav>
-      <div class="nav-wrapper red lighten-1">
-        <a href="index.html" class="brand-logo" style="padding-left: 35px;"><img src="images/3.jpg"></a>
-        <ul class="right">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="history.html">HISTORY</a></li>
-          <li><a href="events.html">EVENTS AT TEMPLE</a></li>
-          <li><a href="timing.html">DARSHAN TIMING</a></li>
-          <li><a href="gallery.html">GALLERY</a></li>
-          <li><a href="pubs.html">PUBLICATIONS</a></li>
-          <li><a href="contact.html">CONTACT US</a></li>
-        </ul>
-      </div>
-    </nav>
-<!--Top Navigation Bar end-->
-
-    <div class="margin-top-left amber lighten-3">
-      <div class="row card-panel">
-        <div class="col s8">
-          <h4>Question / Feedback</h4>
-          <div class="row">
-            <form class="col s12" method="post" action="submitForm.php">
-              <div class="row">
-                <div class="input-field col s6">
-                  <i class="material-icons prefix">perm_identity</i>
-                  <input id="fName" name="fName" type="text" class="validate">
-                  <label for="fName">First Name</label>
-                </div>
-                <div class="input-field col s6">
-                  <i class="material-icons prefix">perm_identity</i>
-                  <input id="lName" name="lName" type="text" class="validate">
-                  <label for="lName">Last Name</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s6">
-                  <i class="material-icons prefix">email</i>
-                  <input id="email" name="email" type="email" class="validate">
-                  <label for="email">Email</label>
-                </div>
-                <div class="input-field col s6">
-                  <i class="material-icons prefix">phone</i>
-                  <input id="phone" name="phone" type="tel" class="validate">
-                  <label for="phone">Telephone</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <i class="material-icons prefix">subject</i>
-                  <input id="subject" name="emailSubject" type="text" class="validate">
-                  <label for="subject">Subject</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <i class="material-icons prefix">mode_edit</i>
-                  <textarea id="textarea" name="emailBody" class="materialize-textarea"></textarea>
-                  <label for="textarea">Message</label>
-                </div>
-              </div>
-              <input type="submit" name="submit" value="SEND" class="right btn waves-effect waves-teal">
-            </form>
-
-          </div>
-
-        </div>
-        <div class="col s4">
-          <h4>You Can Reach Us @</h4>
-          <br>
-          <div>
-            <h5 class="h5">Address</h5>
-            <blockquote class="flow-text">41 Devpriya Soc. - 2</blockquote>
-            <blockquote class="flow-text">Behind Madhur Hall</blockquote>
-            <blockquote class="flow-text">Nr. Anandnagar Cross Roads</blockquote>
-            <blockquote class="flow-text">Ahmedabad, Gujarat</blockquote>
-            <blockquote class="flow-text">380015</blockquote>
-            <br>
-            <h5 class="h5">Phone</h5>
-            <blockquote class="flow-text">+91-98256-33791</blockquote>
-          </div>
-        </div>
-      </div>
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+        <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        <nav id="menu">
+            <ul id="menu-nav">
+                <li id ="index"><a href="index.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="events.html">Events At Temple</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
     </div>
+</header>
+<!-- End Header -->
 
-    <footer class="page-footer red lighten-1">
-      <div class="row">
-        <div class="col l5 s12" style="text-align: center;">
-          <h5>Subscribe to our Newsletter to get latest news</h5>
-        </div>
-        <div class="col l7 s12">
-          <form action="subscribe.php" method="post">
-            <div class="row footer-form-row">
-                <div class="col l4">
-                    <input name="name" type="text" class="validate">
-                    <label for="name" style="font-size:1rem;">Name</label>
-                </div>
-                <div class="col l4">
-                    <input name="email" type="email" class="validate">
-                    <label for="email" style="font-size:1rem;">Email</label>
-                </div>
-                <div class="col l2">
-                    <input type="submit" name="submit" value="DONE" class="right btn waves-effect waves-red">
-                </div>
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">You Can Reach Us Here</h3>
             </div>
-          </form>
         </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container black-text" style="text-align: center;">
-          All Rights Reserved © 2017 Copyright Shree Bhatt Vallabh-Dhola Smruti Trust
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+        <div class="span8">
+            <form id="contact-form" class="contact-form" action="#">
+                <p class="contact-name">
+                    <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                    <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                </p>
+                <p class="contact-phone">
+                    <input id="contact_phone" type="text" placeholder="Phone Number" value="" name="phone" />
+                </p>
+                <p class="contact-subject">
+                    <input id="contact_subject" type="text" placeholder="Subject" value="" name="subject" />
+                </p>
+                <p class="contact-message">
+                    <textarea id="contact_message" placeholder="Your Message" name="message" rows="12" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                    <a id="contact-submit" class="submit" href="#">Send your Email</a> 
+                </p>
+            </form>
         </div>
-      </div>
-    </footer>
+        
+        <div class="span4">
+            <div class="contact-details">
+                <ul>
+                    <li><h3>Email</h3></li>
+                    <li><h4 style="word-wrap: break-word;">kalpesh.bhatt911@gmail.com</h4></li>
+                    <li><h3>Phone</h3></li>
+                    <li><h4>+91-98256-33791</h4></li>
+                    <li><h3>Address</h3></li>
+                    <li><h4>
+                        41 Devpriya Soc. - 2
+                        <br>
+                        Behind Madhur Hall
+                        <br>
+                        Nr. Anandnagar Cross Roads
+                        <br>
+                        Ahmedabad, Gujarat
+                        <br>
+                        380015
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2013 Brushed. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
+</footer>
+<!-- End Footer -->
 
 
-<!--Javascript-->
-<!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.js"></script>
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
 
 </body>
 </html>

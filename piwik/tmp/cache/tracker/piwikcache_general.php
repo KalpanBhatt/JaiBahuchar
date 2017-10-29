@@ -1,9 +1,9 @@
 <?php return array (
-  'lifetime' => 1509242130,
+  'lifetime' => 1509251353,
   'data' => 
   array (
     'isBrowserTriggerEnabled' => true,
-    'lastTrackerCronRun' => false,
+    'lastTrackerCronRun' => '1509250277',
     'allUrlsByHostAndIdSite' => 
     array (
       'bhattvallabhdhola.com' => 
